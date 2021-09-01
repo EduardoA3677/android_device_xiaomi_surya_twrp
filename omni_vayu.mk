@@ -15,18 +15,18 @@
 #
 
 # Release name
-PRODUCT_RELEASE_NAME := surya
-DEVICE_PATH := device/xiaomi/surya
+PRODUCT_RELEASE_NAME := vayu
+DEVICE_PATH := device/xiaomi/vayu
 
 # Inherit from surya device
-$(call inherit-product, device/xiaomi/surya/device.mk)
+$(call inherit-product, device/xiaomi/vayu/device.mk)
 
 # Inherit from our custom product configuration
 $(call inherit-product, vendor/omni/config/common.mk)
 
 ## Device identifier. This must come after all inclusions
-PRODUCT_NAME := omni_surya
-PRODUCT_DEVICE := surya
+PRODUCT_NAME := omni_vayu
+PRODUCT_DEVICE := vayu
 PRODUCT_BRAND := POCO
-PRODUCT_MODEL := POCO X3
+PRODUCT_MODEL := M2102J20SG
 PRODUCT_MANUFACTURER := Xiaomi
