@@ -176,6 +176,3 @@ TARGET_USES_LOGD := true
 
 # USB Mounting
 TARGET_USE_CUSTOM_LUN_FILE_PATH := "/config/usb_gadget/g1/functions/mass_storage.0/lun.%d/file"
-
-# The path to a temperature sensor
-TW_CUSTOM_CPU_TEMP_PATH := "/sys/devices/virtual/thermal/thermal_zone19/temp"
