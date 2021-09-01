@@ -16,7 +16,7 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifeq ($(TARGET_DEVICE),surya)
+ifeq ($(TARGET_DEVICE),vayu)
 
 include $(call all-makefiles-under,$(LOCAL_PATH))
 
